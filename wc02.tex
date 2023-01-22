@@ -8,7 +8,7 @@
 \printanswers
 
 \title{Weekly Challenge 02: Logical Thinking\\CS/MATH 113 Discrete Mathematics}
-\author{$\langle team-name \rangle$}  % <== for grading, replace with your team name, e.g. q1-team-420
+\author{$\langle Q1 Team 17 \rangle$}  % <== for grading, replace with your team name, e.g. q1-team-420
 \date{Habib University | Spring 2023}
 
 \qformat{{\large\bf \thequestion. \thequestiontitle}\hfill}
@@ -29,7 +29,19 @@
   \end{parts}
 
   \begin{solution}
-    % Enter your solution here.
+\newline
+(a)
+\newline
+If a hiker's compass is faulty, they can tell by looking at the compasses of the other hikers. If the number of faulty compasses excluding his equals $k-1$, then he would be sure that he has a faulty compass. If a hiker's compass is working, they will be able to tell by looking at the compasses of the other hikers and seeing that there are $k$ faulty compasses, since they know that the number of faulty compasses is $k$. Therefore he knows that his compass will be working.
+\newline
+(b)
+\newline 
+In this case the first hiker would only say "faulty" if he sees $k-1$ faulty compasses on the other hikers, subsequently the other hikers with faulty compasses would do the same. The ones who have a working compass would know it because the hiker who has a faulty compass would let him know because they can only say that when there are $k-1$ faulty compasses in front of them which means he can't have a faulty compass as he can see $k$ people with faulty compasses in front of him.
+\newline
+(c)
+\newline
+If a hiker says "working", no subsequent hiker will say "cant tell".
+This is because the hiker will only say "working" if he sees $k$ faulty compasses on the other hikers. Subsequently, if the other hikers see $k$ faulty compasses on the others they'll say "working", else if they see $k-1$ faulty compasses they would say "faulty".
   \end{solution}
 \end{questions}
 
